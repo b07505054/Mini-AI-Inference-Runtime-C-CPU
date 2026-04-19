@@ -95,12 +95,19 @@ mkdir build
 cd build
 cmake ..
 cmake --build . --config Release
+```
 ### Run Demo
+```bash
 ./Release/runtime_demo --graph=4 --hidden=64
+```
 ### Run Benchmark
+```bash
 ./Release/runtime_benchmark --hidden=128 --runs=5
+```
 ### Run Tests
+```bash
 ./Release/runtime_tests
+```
 ## Project Structure
 mini_ai_inference_runtime/
 ├── include/
